@@ -12,5 +12,4 @@ jobs:
     - uses: actions/checkout@master
       with:
         ref: refs/heads/master
-    - name: Build docker image
-      run: docker build --tag frontend ${PWD}
+
