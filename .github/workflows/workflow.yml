@@ -1,0 +1,11 @@
+name: Basic Workflow
+on: [push]
+jobs:
+    echo: 
+        runs-on: ubuntu-latest
+        steps:
+        - uses: actions/checkout@master
+          with:
+            ref: refs/heads/master
+        - name: run an echo command
+          run: echo "Buongiorno da Mondello"
