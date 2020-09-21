@@ -8,4 +8,4 @@ jobs:
           with:
             ref: refs/heads/master
         - name: run an echo command
-          run: echo "Buongiorno da Mondello"
+          run: echo "E da me che voi? Io te posso cantà na canzone"
